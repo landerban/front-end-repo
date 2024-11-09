@@ -1,0 +1,46 @@
+.icons {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.sign-up {
+  text-decoration: none;
+  height: 20px;
+  width: 51px;
+  position: relative;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.button-label {
+  height: 20px;
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.button {
+  height: 40px;
+  width: 120px;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) var(--padding-16xl) var(--padding-2xs-5);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+  font-family: var(--font-montserrat);
+}

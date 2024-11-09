@@ -1,0 +1,106 @@
+.about-us-child {
+  width: 720px;
+  height: 1008px;
+  position: relative;
+  box-shadow: 13px 0px 24.5px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.moto {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.china-brush-element-red-cultur-icon {
+  height: 301px;
+  width: 278px;
+  position: absolute;
+  margin: 0 !important;
+  right: -145px;
+  bottom: -27px;
+  object-fit: cover;
+  z-index: 2;
+}
+.this-website-was {
+  margin: 0;
+  height: 732px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.about-us1 {
+  width: 720px;
+  box-shadow: 13px 0px 24.5px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-181xl) var(--padding-126xl) var(--padding-8xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+
+@media screen and (max-width: 1000px) {
+  .about-us1 {
+    padding-top: var(--padding-111xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .moto {
+    font-size: var(--font-size-13xl);
+  }
+
+  .about-us1 {
+    padding-left: var(--padding-53xl);
+    padding-right: var(--padding-53xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .about-us1 {
+    padding-top: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .moto {
+    font-size: var(--font-size-5xl);
+  }
+
+  .this-website-was {
+    font-size: var(--font-size-lgi);
+  }
+
+  .about-us1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

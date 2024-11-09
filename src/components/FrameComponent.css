@@ -1,0 +1,18 @@
+.image-2-icon {
+  height: 1010px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-2-parent {
+  margin-left: -177px;
+  width: 1794px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 125%;
+}
